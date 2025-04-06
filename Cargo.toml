@@ -12,6 +12,8 @@ stm32f1xx-hal = {version = "0.10.0", features = ["stm32f103", "rt"]}
 panic-probe = { version = "1.0.0", features = ["print-defmt"] }
 defmt = "1.0.1"
 defmt-rtt = "1.0.0"
+# ssd1306 = "0.8.0"
+# embedded-graphics = "0.8.0"
 
 [[bin]]
 name = "rust_embedded_project_template"
